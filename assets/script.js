@@ -39,6 +39,7 @@ $(document).ready(function () {
             var logTime = $(this).attr("id");
             var logText = $(this).siblings(".description").val();
             localStorage.setItem(logTime, logText);
+            alert("Saved!")
         });
 
         var icon = $("<i>").addClass("fas fa-save");

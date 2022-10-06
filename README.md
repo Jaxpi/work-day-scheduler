@@ -1,6 +1,6 @@
 # work-day-scheduler
 
-https://jaxpi.github.io/DEPLOYEDLINK/
+https://jaxpi.github.io/work-day-scheduler/
 <br><img src="assets/mainscreenshot.jpg" style="width:300px; height auto;">
 
 ## Description
