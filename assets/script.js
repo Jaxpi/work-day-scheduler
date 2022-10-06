@@ -32,7 +32,7 @@ $(document).ready(function () {
         }
 
         var rowEl = $("<div>").addClass("row time-block").attr("id", i);
-        var hourEl = $("<div>").addClass("col-2 hour").text(hourDisplay).attr("style", "font-weight: bolder; font-size: 20px");
+        var hourEl = $("<div>").addClass("col-2 hour").text(hourDisplay).attr("style", "font-weight: bolder; font-size: 20px; display: flex; align-items: center; justify-content: center");
         var textAreaEl = $("<textarea>").addClass("col-8 description " + highlight).attr("style", "color: black; font-size: 20px").val(localStorage.getItem(i));
         
         var button = $("<button>").addClass("col-2 saveBtn").attr("id", i).attr("style", "font-size: 40px").click(function () { 
