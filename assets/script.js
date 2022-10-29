@@ -23,7 +23,7 @@ $(document).ready(function () {
             hourDisplay = i - 12 + "pm";
         }
 
-        var rowEl = $("<div>").addClass("row time-block").attr("id", i);
+        var rowEl = $("<div>").addClass("row time-block");
         var hourEl = $("<div>").addClass("col-2 hour").text(hourDisplay).attr("style", "font-weight: bolder; font-size: 20px; display: flex; align-items: center; justify-content: center");
         var textAreaEl = $("<textarea>").addClass("col-8 description " + highlight).attr("style", "color: black; font-size: 20px").val(localStorage.getItem(i));
         
